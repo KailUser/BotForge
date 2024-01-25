@@ -5,13 +5,13 @@ long_description = (this_directory / "README.md").read_text()
 
 
 setup(
-    name='PyGram',
+    name='BotForge',
     version='0.0.1',
     install_requires=["requests", "time", "functools"],
-    description='PyGram - tiny bot api for telegram',
+    description='BotForge - tiny bot api for telegram',
     author='Syirezz',
     author_email='syirezz@icloud.com',
-    url='https://github.com/KailUser/PyGram',
+    url='https://github.com/KailUser/BotForge',
     license='MIT',
     long_description=long_description,
     long_description_content_type='text/markdown',

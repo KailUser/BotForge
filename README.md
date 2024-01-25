@@ -1,6 +1,6 @@
-# PyGram - Telegram Bot Library
+# BotForge - Telegram Bot Library
 
-PyGram is a lightweight Python library designed to simplify the development of Telegram bots. It provides a simple interface to interact with the Telegram Bot API and includes features for handling commands.
+BotForge is a lightweight Python library designed to simplify the development of Telegram bots. It provides a simple interface to interact with the Telegram Bot API and includes features for handling commands.
 
 ## Features
 
@@ -10,22 +10,22 @@ PyGram is a lightweight Python library designed to simplify the development of T
 
 ## Installation
 
-You can install PyGram using pip:
+You can install BotForge using pip:
 
 ```bash
-pip install pygram
+pip install BotForge
 ```
 
 ## Usage
 
 ```python
-# Import PyGram and necessary modules
+# Import BotForge and necessary modules
 import time
 from functools import wraps
-from pygram import PyGram, CommandContext
+from BotForge import BotForge, CommandContext
 
-# Initialize PyGram with your bot token
-bot = PyGram(token="YOUR_BOT_TOKEN")
+# Initialize BotForge with your bot token
+bot = BotForge(token="YOUR_BOT_TOKEN")
 
 # Define command handlers using decorators
 @bot.command_handler("/start")
@@ -42,7 +42,7 @@ bot.start()
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/KailUser/PyGram).
+Contributions are welcome! If you have any ideas, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/KailUser/BotForge).
 
 ## License
 

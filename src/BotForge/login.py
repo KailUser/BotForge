@@ -5,7 +5,7 @@ import requests
 from .command_context import CommandContext
 
 
-class PyGram:
+class BotForge:
     def __init__(self, token):
         self.base_url = f"https://api.telegram.org/bot{token}/"
         self.last_update_id = None
