@@ -25,7 +25,7 @@ class PyGram:
     def start(self):
         while True:
             self.check_updates()
-            time.sleep(0.5)  # Add a short delay to avoid excessive API requests
+            time.sleep(0.1)  # Add a short delay to avoid excessive API requests
 
     def check_updates(self):
         endpoint = "getUpdates"
