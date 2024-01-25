@@ -6,8 +6,8 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='PyGram',
-    version='0.0.4',
-    install_requires=find_packages(),
+    version='0.0.1',
+    install_requires=["requests", "time", "functools"],
     description='PyGram - tiny bot api for telegram',
     author='Syirezz',
     author_email='syirezz@icloud.com',
