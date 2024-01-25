@@ -7,7 +7,7 @@ setup(
     description='PyGram - tiny bot api for telegram',
     author='Syirezz',
     author_email='syirezz@icloud.com',
-    # url='',
+    url='https://github.com/KailUser/PyGram',
     license='MIT',
     classifiers=[
         'Programming Language :: Python :: 3.8',
