@@ -48,6 +48,4 @@ Contributions are welcome! If you have any ideas, bug reports, or feature reques
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Replace `"YOUR_BOT_TOKEN"` with the actual token of your Telegram bot. Additionally, make sure to replace the placeholder link to the GitHub repository with the actual URL once you have it.
-
-Feel free to add more sections to the README file as needed for your project.
+Replace `"YOUR_BOT_TOKEN"` with the actual token of your Telegram bot.
